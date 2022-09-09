@@ -11,4 +11,3 @@ int main(void)
 printf("with proper grammar, but the outcome is a pie
 ce of art,\n");
 return (0);
-}
