@@ -30,7 +30,7 @@ int recursive_search(int *array, size_t size, int value)
 
 	if (value == array[half])
 		return ((int)half);
-	
+
 	if (value < array[half])
 		return (recursive_search(array, half, value));
 
@@ -56,6 +56,6 @@ int binary_search(int *array, size_t size, int value)
 
 	if (index >= 0 && array[index] != value)
 		return (-1);
-	
+
 	return (index);
 }
